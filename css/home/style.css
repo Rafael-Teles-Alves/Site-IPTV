@@ -1,0 +1,116 @@
+/* style.css */
+
+/* Personalização do cabeçalho */
+header.jumbotron {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Espaçamento no rodapé */
+footer {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+}
+
+/* img baner */
+.img-blog {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    max-width: 72em;
+}
+
+.img-blog .img-blog-plano {
+    width: 450px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Estilização dos cartões de planos */
+.card {
+    border: none;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: none;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+/* Botões personalizados */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+    .img-blog {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .img-blog .img-blog-plano { 
+        height: 22em;
+        width: 15em;
+        margin: 0 auto;
+    }
+
+    h1 .display-10 {
+        font-size: 1em; /* Corrigido de 1px para 1em para ser visível */
+    }
+
+    h3, h4 {
+        font-size: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+    }
+
+    .descr-baner {
+        width: 100%;
+        margin: 10px 0px;
+    }
+}    
+
+@media screen and (max-width: 650px) { /* Corrigido de 650x para 650px */
+    .img-blog {
+        display: block;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .img-blog .img-blog-plano { 
+        width: 100%;
+        height: 20em;
+        margin: 5px auto;
+    }
+
+    h1 .display-10 {
+        font-size: 1em; /* Corrigido de 1px para 1em para ser visível */
+    }
+
+    h3, h4 {
+        font-size: 1.3em;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+    }
+
+    .descr-baner {
+        width: 100%;
+        margin: 10px 0px;
+    }
+}
