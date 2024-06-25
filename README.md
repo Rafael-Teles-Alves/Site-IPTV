@@ -1,2 +1,4 @@
-# rafaelteles
-Como desenvolvedor full-stack, estou sempre em busca de novos desafios e oportunidades de aprendizado. 
+# Site De IPTV
+Site Simples Desenvolvido em HTML, CSS, BOOSTRAP, JS
+
+Feito Apenas para Treino De criação e pequenas funçoes com js para envio direto para Whatsap
